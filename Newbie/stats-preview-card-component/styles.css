@@ -6,8 +6,10 @@
 */
 
 body{
+
   color:white;
   font-family: 'Varela Round', sans-serif;
+  background-color: #11052C;
 }
 h2{
   font-size: 35px;
@@ -15,7 +17,6 @@ h2{
 .wrapper{
   display: flex;
   justify-content: center;
-
 }
 .informations {
   display: flex;
