@@ -1,12 +1,13 @@
 body {
-background-color: #EFF8FF;
-display: flex;
-justify-content: center;
-align-items: center;
-font-family:'Quicksand', sans-serif;
+  background-color: #EFF8FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
 }
-p{
-font-size: 16px;
+
+p {
+  font-size: 16px;
 }
 
 .illustration {
@@ -23,11 +24,7 @@ font-size: 16px;
   border-radius: 13px;
 }
 
-
-
-
-.plan{
-
+.plan {
   display: flex;
   width: 300px;
   margin-bottom: 20px;
@@ -36,26 +33,27 @@ font-size: 16px;
   background-color: #EFF8FF;
   border-radius: 12px;
   margin: 0px;
-
 }
 
-.Card-p{
+.Card-p {
   text-align: center;
   padding-bottom: 20px;
   opacity: 75%;
   font-size: 18px;
 }
-.annual-plan
-{
+
+.annual-plan {
   font-weight: bold;
   margin-bottom: 5px;
 }
+
 .price {
   font-weight: 100;
   font-size: 14px;
   opacity: 0.5;
 }
-.change-button{
+
+.change-button {
   display: inline-block;
   background-color: transparent;
   background-repeat: no-repeat;
@@ -64,14 +62,14 @@ font-size: 16px;
   border: none;
   color: black;
   font-weight: bold;
-
 }
+
 .change-button:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
-.ProceedToPayment{
+.ProceedToPayment {
   background-color: hsl(245, 75%, 52%);
   font-size: 16px;
   color: white;
@@ -91,8 +89,7 @@ font-size: 16px;
   cursor: pointer;
 }
 
-
-.cancelOrder{
+.cancelOrder {
   font-size: 15px;
   display: inline-block;
   background-color: transparent;
@@ -101,11 +98,11 @@ font-size: 16px;
   outline: none;
   border: none;
   color: black;
-
   margin-bottom: 35px;
   font-weight: bold;
 }
-.cancelOrder:hover{
+
+.cancelOrder:hover {
   color: #FF0000;
   cursor: pointer;
 }

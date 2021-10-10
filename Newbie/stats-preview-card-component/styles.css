@@ -1,0 +1,54 @@
+/* TODO:
+1. padding
+2.center the text
+3. responsive mobile
+
+*/
+
+body{
+  color:white;
+  font-family: 'Varela Round', sans-serif;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+
+}
+.informations {
+  display: flex;
+  flex-direction: column;
+  background-color: #1C0C5B;
+  width: fit-content;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.asset {
+  width: auto;
+  height: auto;
+  background-color: #C32BAD;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+img {
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+
+}
+
+
+.info{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.info2{
+  font-size: 14px;
+  opacity: 0.5;
+}
+.insights{
+  color: #AE00FB;
+}
