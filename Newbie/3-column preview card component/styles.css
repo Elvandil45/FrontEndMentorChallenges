@@ -1,0 +1,86 @@
+body{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img{
+  width: 7em;
+  height: auto;
+}
+h2{
+  margin-top: -2em;
+  font-size: 2em;
+  font-family: 'Oswald', sans-serif;
+}
+p{
+  margin-top: -4em;
+  width: 15em;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.wrapper {
+  display: flex;
+  width: 1000px;
+  height: 600px;
+  width: fit-content;
+
+}
+
+.sedans{
+  background-color: #F58634;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 3em;
+  padding-right: 5em;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+
+}
+
+.suv{
+  background-color: #00AF91;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 3em;
+  padding-right: 5em;
+}
+
+.luxury{
+  background-color: #206A5D;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 3em;
+  padding-right: 5em;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+button{
+  background-color: white;
+  border-radius: 23px;
+  border:none;
+  width: 10em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+}
+.sedans-button{
+  color: #F58634;
+  font-weight: bold;
+}
+
+.suvs-button {
+  color: #00AF91;
+  font-weight: bold;
+}
+
+.luxury-button {
+  color: #206A5D;
+  font-weight: bold;
+}
