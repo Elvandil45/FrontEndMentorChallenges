@@ -1,0 +1,65 @@
+body {
+    background-image: url("images/bg-pattern-bottom.svg");
+    background-color: #E8F6EF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-card{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    flex-direction: column;
+    width: fit-content;
+    border: none;
+    border-radius: 1em;
+    background-color: white;
+}
+#top-bck-pattern{
+    border-radius: 1em 1em 0 0;
+}
+#profile-picture {
+    width: fit-content;
+    display: inline-block;
+    border: solid 0.5em white;
+    border-radius: 50%;
+    margin-top: -3.5em;
+}
+
+.name-location-profile {
+}
+
+hr{
+    display: block;
+    border: 0.5px solid #eee;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.profile-stats{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.nbr-stats{
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.txt-stats{
+    opacity: 0.5;
+    font-size: 0.80em;
+}
+
+.user-age {
+    opacity: 0.5;
+}
+.location {
+    opacity: 0.5;
+}
